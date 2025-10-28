@@ -1,0 +1,25 @@
+/* NAVIGATION STUFF GOES HERE  */
+#hamburgerBtn {display: none;}
+#primaryNav {display: flex;}
+
+nav {
+    border: none;
+    font-size: .85rem;
+    font-weight: $normalWeight;
+    padding: .5rem 1.2rem;
+    //Transition
+    transition: background 0.5s linear;
+}
+ul li a:hover {
+    background-color: $sColor;
+}
+
+.cards {
+  display: flex;
+  margin: 10px;
+  gap: 20px;
+}
+.flip-card {
+  width: 500px;
+  height: 400px;
+}
